@@ -1,4 +1,5 @@
 "use client";
+import NewDragon from "@/components/NewDragon.jsx";
 import { useState } from "react";
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
           );
         })}
       </div>
+      <NewDragon setDragons={setDragons} dragons={dragons} />
     </main>
   );
 }
