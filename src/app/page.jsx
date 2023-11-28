@@ -15,8 +15,6 @@ export default function Home() {
               <p>{dragon.id}</p>
               <h2>{dragon.name}</h2>
               <p>{dragon.emoji}</p>
-              <p>{dragon.species}</p>
-              <p>{dragon.color}</p>
             </div>
           );
         })}
