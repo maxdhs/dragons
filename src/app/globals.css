@@ -1,4 +1,12 @@
 .dragon-container {
   border: 2px solid black;
-  margin: 2px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+#dragons-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
