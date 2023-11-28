@@ -1,9 +1,24 @@
 "use client";
 import { useState } from "react";
-import defaultDragons from "../lib/dragons.js";
 
 export default function Home() {
-  const [dragons, setDragons] = useState(defaultDragons);
+  const [dragons, setDragons] = useState([
+    {
+      id: 1,
+      emoji: "🐉",
+      name: "Draco",
+    },
+    {
+      id: 2,
+      emoji: "🐲",
+      name: "Saphira",
+    },
+    {
+      id: 3,
+      emoji: "🐊",
+      name: "Fang",
+    },
+  ]);
 
   return (
     <main>
